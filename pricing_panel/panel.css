@@ -1,0 +1,124 @@
+html{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    font-family: "Playfair Display";
+    font-weight: 400;
+    background-color: #3a86ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 10em;
+    height: 15em;
+}
+.standard img{
+    width: 15em;
+}
+main{
+    text-align: center;
+    /* width: 70%; */
+    height: 10rem;
+    margin: auto auto;
+    display: flex;
+    /* flex:1 1 3rem; */
+    justify-content: space-between;
+    background-color: whitesmoke;
+    border-radius: 1em;
+    padding: 1em 1em;
+    height: auto;
+    flex-wrap: wrap;
+}
+div{
+    /* height: 25rem; */
+    flex: 1 1 15rem;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.basic,.standard{
+    border-right:1px solid rgba(161, 156, 156,0.7);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul,li{
+    margin: 0 0 0 1em;
+    padding: 0;
+    list-style: none;
+    font-family: cursive;
+}
+li{
+    display: block;
+    /* width: 80%; */
+    padding-bottom: 2px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #0077b6 ;
+}
+div h2{
+    color: #3a86ff;
+    font-size: 1.5em;
+}
+div{
+    /* text-transform: uppercase; */
+    color: #0077b6;
+    font-weight: 500;
+}
+span{
+    margin-top: 0.6em;
+    color: #3a86ff;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+a{
+    border: 2px solid #0077b6;
+    color: #0077b6;
+    margin: 10px 5px;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #8ecae6;
+    transform:translateY(-1px);
+}
+div:nth-last-of-type(2)>a{
+    background-color:#0077b6;
+    color: white;
+}
+div:nth-last-of-type(2)>a:hover{
+    background-color: #023e8a;
+}
+
+
+
+@media(orientation:portrait){
+    img{
+        /* width: 100%; */
+    }
+    main{
+        flex-direction: column;
+    }
+    .basic,.standard{
+        border-right: none;
+        border-bottom:1px solid rgba(161, 156, 156,0.7);
+    }
+    div{
+        padding-bottom: 1em;
+    }
+
+
+}
