@@ -1,0 +1,10 @@
+#post{
+    position: fixed;
+    right:50px;
+    bottom: 20px;
+    /* background-color: black; */
+
+}
+body{
+    background-image:url('https://t3.ftcdn.net/jpg/03/25/98/88/360_F_325988860_bL8TAVB6Nv5YOjEc2kAKqveXFLHJxzsP.jpg');
+}

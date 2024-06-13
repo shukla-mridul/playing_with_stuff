@@ -1,0 +1,21 @@
+body{
+    height: 90vh;
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:space-between;
+}
+button{
+    background:none;
+    /* position: relative;
+    bottom:-30em; */
+    font-family: inherit;
+    padding: 0.8em 3em;
+    width: 15rem;
+    align-self: center;
+}
+h2{
+    font-size: 1em;
+}
