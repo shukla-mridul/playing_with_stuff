@@ -1,0 +1,26 @@
+body{
+    font-family: cursive;
+}
+header img,article img{
+    width: 50%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+article{
+    flex-basis: 70%;
+}
+aside{
+    flex-basis: 20%;
+}
+aside form{
+    display: flex;
+    flex-direction: column;
+}
+aside form label{
+    margin: 0.3rem 0.2rem;
+}
+body{
+    background-color: lightseagreen;
+}
