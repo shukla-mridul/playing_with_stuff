@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoreKeeper!</title>
+</head>
+
+<body>
+    <div id="card">
+        <img id="img1" src="https://t4.ftcdn.net/jpg/04/42/21/53/360_F_442215355_AjiR6ogucq3vPzjFAAEfwbPXYGqYVAap.jpg"
+            alt="">
+        <img id="img2" src="https://t4.ftcdn.net/jpg/04/25/82/61/360_F_425826184_liz3OO1c5mpzoWmg2aMqlzljCtUm9Ukl.jpg"
+            alt="">
+        <h1>Scores</h1>
+        <p><span id="p1score">0</span> to <span id="p2score">0</span></p>
+        <label for="gamecap">Playing Till</label>
+        <select name="gamecap" id="gamecap">
+            <option value="5">5</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+        </select>
+        <div id="btn-grp">
+            <button id="p1plus">P1 Scores</button>
+            <button id="p2plus">P2 Scores</button>
+            <button id="reset">Reset!</button>
+        </div>
+    </div>
+    <script src="score.js"></script>
+</body>
+
+</html>

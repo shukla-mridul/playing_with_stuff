@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="movieline.css">
+</head>
+
+<body>
+    <h1>Movie Line!</h1>
+    <section id="movieline">
+        <img src="https://img.icons8.com/?size=100&id=43348&format=png&color=000000" alt="">
+        <section id="walkway">
+            <img src="https://img.icons8.com/?size=100&id=rQ60z8AiHqZZ&format=png&color=000000" alt="">
+            <div id="queueDisplay"></div>
+            <img src="https://img.icons8.com/?size=100&id=rQ60z8AiHqZZ&format=png&color=000000" alt="">
+        </section>
+
+    </section>
+    <div id="timer"></div>
+    <div id="entered"></div>
+    <section>
+        <form id="enq" action="#">
+            <label>Enter person <input id="personName" type="text"></label>
+            <!-- this code keep refreshing the page for some reeason that idk -->
+            <label for="category">VIP/General
+                <select name="category" id="category"></label>
+            <option value="g">General</option>
+            <option value="v">VIP</option>
+            </select><br>
+            <!-- <label>VIP/general <input id="category" type="text" placeholder="enter g or v"></label> -->
+            <button>enter Queue</button>
+        </form>
+
+    </section>
+    <script src="movieline.js"></script>
+</body>
+
+</html>
