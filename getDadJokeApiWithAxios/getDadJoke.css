@@ -1,0 +1,47 @@
+
+body {
+    background-image: linear-gradient(125deg, rgb(237, 219, 117), rgb(157, 236, 157), rgb(85, 85, 234));
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 98vh; /*sorry for this :v*/
+    margin-bottom: 0%;
+    padding-bottom: 0;
+    padding-left: 1rem;
+    font-family: Math;
+}
+
+
+h1 {
+    font-size: 2.5em;
+}
+
+#jokebtn {
+    font-size: 1.15em;
+    padding: 0.12em 1em;
+    background-color: inherit;
+}
+
+#jokeul {
+    font-family: cursive;
+    font-size: 1.25em;
+    margin-top: 2rem;
+    overflow-y: auto;
+}
+
+#jokeul li {
+    margin: 1rem 1rem;
+        }
+footer{
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0.1rem;
+    left: 40%;
+    background-color: inherit;
+    color: grey;
+}
+footer a{
+
+    text-decoration: none;
+    color: darkslategrey;
+}
