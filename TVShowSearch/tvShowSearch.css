@@ -82,3 +82,18 @@ body{
     width: 13rem;
     /* color:rgb(9, 5, 0); */
 }
+/* footer */
+footer{
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0.1rem;
+    left: 45%;
+    background-color: inherit;
+    color: grey;
+    font-size: 0.8em;
+}
+footer a{
+    color: rgb(190, 179, 164);
+    text-decoration: none;
+}
